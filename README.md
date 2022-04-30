@@ -1,5 +1,5 @@
 # DeepPluginFolder
-Extremely lightweight(40 lines code) plugin folder swapper plugin. This plugin allows you to split your plugins folder.
+Extremely lightweight(35 lines code) plugin folder swapper plugin. This plugin allows you to split your plugins folder.
 
 ## How to use
 
