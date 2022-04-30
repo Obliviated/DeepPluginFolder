@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'mc.obliviate'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        // As of Gradle 5.1, you can limit this to only those
+        // dependencies you expect from it
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+
+}
+
+dependencies {
+  compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT' // The Spigot API with no shadowing. Requires the OSS repo.
+
+}
+
+test {
+  useJUnitPlatform()
+}

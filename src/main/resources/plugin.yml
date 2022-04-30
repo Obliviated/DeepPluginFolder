@@ -1,0 +1,6 @@
+name: DeepPluginFolders
+author: Mr_Obliviate
+main: mc.obliviate.deeppluginfolders.DeepPluginFolders
+version: 1.0
+api-version: 1.13
+load: STARTUP
